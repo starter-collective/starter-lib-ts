@@ -26,7 +26,7 @@ Just run `dev` script to build your files.
 pnpm dev
 ```
 
-To build the Library, you can run:
+To build the library, you can run:
 
 ```bash
 pnpm build
