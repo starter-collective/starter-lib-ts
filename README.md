@@ -12,6 +12,16 @@ TypeScript Library starter template, supports ESM and CJS.
 git clone <git remote url>
 ```
 
+Install npm dependencies.
+
+```bash
+cd starter-lib-ts # Or your project directory
+
+pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
+```
+
+Just run `dev` script to build your files.
+
 ```bash
 pnpm dev
 ```
