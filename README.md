@@ -2,7 +2,7 @@
 
 [![Version](https://img.shields.io/github/v/release/templates-collective/starter-lib-ts?style=flat&label=%20&color=%230d0d0d)](https://github.com/templates-collective/starter-lib-ts/releases)
 
-TypeScript Library starter template, supports ESM and CJS.
+TypeScript library starter template, supports ESM and CJS.
 
 ## Usage
 
