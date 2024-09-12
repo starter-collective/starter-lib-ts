@@ -4,6 +4,15 @@
 
 TypeScript library starter template, supports ESM and CJS.
 
+- [Play on Stackblitz](https://stackblitz.com/github/templates-collective/starter-lib-ts)
+- [README for 简体中文](./README.zh-CN.md)
+
+## Features
+
+- Build package with [tsup](https://tsup.egoist.dev/).
+- Unit Testing with [Vitest](https://github.com/vitest-dev/vitest).
+- Publish to [npm](https://www.npmjs.com) with zero-config.
+
 ## Usage
 
 [Create a repo](https://github.com/templates-collective/starter-lib-ts/generate) from this template on GitHub.
@@ -54,7 +63,6 @@ When you use this template, try follow the checklist to update your info properl
 
 - [ ] Change the author name in `LICENSE`.
 - [ ] Change the package name in `package.json`.
-- [ ] Remove the `.github` folder which contains the funding info.
 
 ## License
 
