@@ -1,8 +1,8 @@
 {
   "name": "starter-lib-ts",
   "type": "module",
-  "version": "0.0.0",
-  "packageManager": "pnpm@8.15.8",
+  "version": "0.1.0",
+  "packageManager": "pnpm@9.10.0",
   "description": "TypeScript Library starter template, supports ESM and CJS.",
   "author": "Kieran Wong <kieranwong9865@gmail.com> (https://github.com/kieranwong9865/)",
   "license": "MIT",
@@ -25,6 +25,9 @@
   "files": [
     "dist"
   ],
+  "engines": {
+    "pnpm": ">=9.0"
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prepare": "simple-git-hooks",
