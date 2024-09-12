@@ -1,6 +1,6 @@
 # TypeScript 库启动模板
 
-[![Version](https://img.shields.io/github/v/release/templates-collective/starter-lib-ts?style=flat&label=%20&color=%230d0d0d)](https://github.com/templates-collective/starter-lib-ts/releases)
+[![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=%20&color=0d0d0d)](https://www.npmjs.com/package/starter-lib-ts)
 
 TypeScript 库启动模板，支持 ESM 和 CJS。
 
@@ -9,7 +9,7 @@ TypeScript 库启动模板，支持 ESM 和 CJS。
 
 ## 特性
 
-- 使用 [tsup](https://tsup.egoist.dev/) 构建包。
+- 使用 [tsup](https://tsup.egoist.dev/) 构建包 - 无需配置即可打包 TypeScript 库。
 - 使用 [Vitest](https://github.com/vitest-dev/vitest) 进行单元测试。
 - 零配置发布到 [npm](https://www.npmjs.com)。
 

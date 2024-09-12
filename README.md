@@ -1,6 +1,6 @@
 # TypeScript Library Starter Template
 
-[![Version](https://img.shields.io/github/v/release/templates-collective/starter-lib-ts?style=flat&label=%20&color=%230d0d0d)](https://github.com/templates-collective/starter-lib-ts/releases)
+[![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=%20&color=0d0d0d)](https://www.npmjs.com/package/starter-lib-ts)
 
 TypeScript library starter template, supports ESM and CJS.
 
@@ -9,7 +9,7 @@ TypeScript library starter template, supports ESM and CJS.
 
 ## Features
 
-- Build package with [tsup](https://tsup.egoist.dev/).
+- Build package with [tsup](https://tsup.egoist.dev/) - Bundle your TypeScript library with no config.
 - Unit Testing with [Vitest](https://github.com/vitest-dev/vitest).
 - Publish to [npm](https://www.npmjs.com) with zero-config.
 
