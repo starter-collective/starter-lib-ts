@@ -4,7 +4,7 @@
 
 TypeScript 库启动模板，支持 ESM 和 CJS。
 
-- [在 Stackblitz 上试用](https://stackblitz.com/github/templates-collective/starter-lib-ts)
+- [在 Stackblitz 上试用](https://stackblitz.com/github/starter-collective/starter-lib-ts)
 - [简体中文的 README](./README.zh-CN.md)
 
 ## 特性
@@ -15,7 +15,7 @@ TypeScript 库启动模板，支持 ESM 和 CJS。
 
 ## 使用方法
 
-从 GitHub 上 [创建一个仓库](https://github.com/templates-collective/starter-lib-ts/generate) 基于此模板。
+从 GitHub 上 [创建一个仓库](https://github.com/starter-collective/starter-lib-ts/generate) 基于此模板。
 
 ```bash
 git clone <git 远程地址>
@@ -52,7 +52,7 @@ pnpm release
 如果你更喜欢手动操作并保持更清晰的 git 历史记录：
 
 ```bash
-npx degit templates-collective/starter-lib-ts starter-lib-ts
+npx degit starter-collective/starter-lib-ts starter-lib-ts
 
 cd starter-lib-ts
 
