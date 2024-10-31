@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=%20&color=%2309090b)](https://github.com/starter-collective/starter-lib-ts/releases)
 [![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/starter-lib-ts)
 
-TypeScript library starter template that provides VitePress online documentation, supports building ESM and CJS formats.
+TypeScript library starter template that provides VitePress online docs, supports building ESM and CJS formats.
 
 - [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-lib-ts)
 - [README for 简体中文](./README.zh-CN.md)
@@ -12,7 +12,7 @@ TypeScript library starter template that provides VitePress online documentation
 
 - Build package with [tsup](https://tsup.egoist.dev/) - Bundle your TypeScript library with no config.
 - Unit Testing with [Vitest](https://github.com/vitest-dev/vitest).
-- Provide [VitePress](https://vitepress.dev/) online documentation.
+- Provide [VitePress](https://vitepress.dev/) online docs.
 - Publish to [npm](https://www.npmjs.com) with zero-config.
 
 ## Usage
