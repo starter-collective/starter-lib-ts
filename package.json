@@ -41,6 +41,9 @@
     "prepare": "simple-git-hooks",
     "dev": "tsup --watch",
     "build": "tsup",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
@@ -58,6 +61,7 @@
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4",
+    "vitepress": "^1.4.2",
     "vitest": "^2.0.5"
   },
   "simple-git-hooks": {

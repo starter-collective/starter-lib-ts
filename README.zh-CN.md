@@ -1,5 +1,6 @@
 # TypeScript 库启动模板
 
+[![Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=%20&color=%230d0d0d)](https://github.com/starter-collective/starter-lib-ts/releases)
 [![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=%20&color=0d0d0d)](https://www.npmjs.com/package/starter-lib-ts)
 
 TypeScript 库启动模板，支持 ESM 和 CJS。
