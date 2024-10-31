@@ -37,6 +37,12 @@ Just run `dev` script to build your files.
 pnpm dev
 ```
 
+Open online docs for the library, you can run:
+
+```bash
+pnpm docs:dev
+```
+
 To build the library, you can run:
 
 ```bash
