@@ -1,9 +1,9 @@
-# TypeScript 库启动模板
+# TypeScript 库初始化模板
 
 [![Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=%20&color=%230d0d0d)](https://github.com/starter-collective/starter-lib-ts/releases)
 [![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=%20&color=0d0d0d)](https://www.npmjs.com/package/starter-lib-ts)
 
-TypeScript 库启动模板，支持 ESM 和 CJS。
+提供 Vitepress 在线文档的 TypeScript 库初始化模板，支持构建 ESM 和 CJS 格式。
 
 - [在 Stackblitz 上试用](https://stackblitz.com/github/starter-collective/starter-lib-ts)
 - [简体中文的 README](./README.zh-CN.md)
@@ -12,6 +12,7 @@ TypeScript 库启动模板，支持 ESM 和 CJS。
 
 - 使用 [tsup](https://tsup.egoist.dev/) 构建包 - 无需配置即可打包 TypeScript 库。
 - 使用 [Vitest](https://github.com/vitest-dev/vitest) 进行单元测试。
+- 提供 [VitePress](https://vitepress.dev/) 在线文档。
 - 零配置发布到 [npm](https://www.npmjs.com)。
 
 ## 使用方法
