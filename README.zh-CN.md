@@ -37,6 +37,12 @@ pnpm i # 如果你没有安装 pnpm，运行：npm install -g pnpm
 pnpm dev
 ```
 
+要打开库的在线文档，你可以运行：
+
+```bash
+pnpm docs:dev
+```
+
 要构建库，你可以运行：
 
 ```bash
