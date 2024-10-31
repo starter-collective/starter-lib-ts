@@ -1,6 +1,7 @@
 # TypeScript Library Starter Template
 
-[![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=%20&color=0d0d0d)](https://www.npmjs.com/package/starter-lib-ts)
+[![Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=%20&color=%2309090b)](https://github.com/starter-collective/starter-lib-ts/releases)
+[![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/starter-lib-ts)
 
 TypeScript library starter template, supports ESM and CJS.
 
