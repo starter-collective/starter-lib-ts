@@ -4,7 +4,7 @@
 
 TypeScript library starter template, supports ESM and CJS.
 
-- [Play on Stackblitz](https://stackblitz.com/github/templates-collective/starter-lib-ts)
+- [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-lib-ts)
 - [README for 简体中文](./README.zh-CN.md)
 
 ## Features
@@ -15,7 +15,7 @@ TypeScript library starter template, supports ESM and CJS.
 
 ## Usage
 
-[Create a repo](https://github.com/templates-collective/starter-lib-ts/generate) from this template on GitHub.
+[Create a repo](https://github.com/starter-collective/starter-lib-ts/generate) from this template on GitHub.
 
 ```bash
 git clone <git remote url>
@@ -52,7 +52,7 @@ pnpm release
 If you prefer to do it manually with the cleaner git history:
 
 ```bash
-npx degit templates-collective/starter-lib-ts starter-lib-ts
+npx degit starter-collective/starter-lib-ts starter-lib-ts
 
 cd starter-lib-ts
 

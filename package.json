@@ -4,15 +4,15 @@
   "version": "0.1.0",
   "packageManager": "pnpm@9.10.0",
   "description": "TypeScript Library starter template, supports ESM and CJS.",
-  "author": "Kieran Wang <kieranwong9865@gmail.com> (https://github.com/kieranwv/)",
+  "author": "Kieran Wang <kieranwme@gmail.com> (https://github.com/kieranwv/)",
   "license": "MIT",
-  "homepage": "https://github.com/templates-collective/starter-lib-ts#readme",
+  "homepage": "https://github.com/starter-collective/starter-lib-ts#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/templates-collective/starter-lib-ts.git"
+    "url": "git+https://github.com/starter-collective/starter-lib-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/templates-collective/starter-lib-ts/issues"
+    "url": "https://github.com/starter-collective/starter-lib-ts/issues"
   },
   "keywords": [
     "typescript",
