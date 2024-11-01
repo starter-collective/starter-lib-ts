@@ -4,20 +4,26 @@ layout: home
 
 hero:
   name: "TypeScript Library Starter Template"
-  tagline: TypeScript Library Starter Template, supports ESM and CJS.
+  tagline: Provides VitePress online docs, supports building ESM and CJS formats.
+  image:
+    src: /logo.png
+    alt: Logo Image
+    width: 200px
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Get Started
+      link: /guide
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Source Code
+      link: https://github.com/starter-collective/starter-lib-ts
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Bundle with tsup
+    details: Build package with tsup - Bundle your TypeScript library with no config.
+  - title: Unit Test
+    details: Out-of-the-box unit testing with Vitest.
+  - title: VitePress online docs
+    details: Deploy on Netlify with zero-config, supports other deployment methods as well.
+  - title: Publish & Version
+    details: Manage versions using the CLI, and publish to npm with zero-config
 ---

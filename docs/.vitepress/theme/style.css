@@ -1,0 +1,46 @@
+:root {
+  --vp-c-indigo-1: #383941;
+  --vp-c-indigo-2: #3f3f4b;
+  --vp-c-indigo-3: #09090b;
+  --vp-c-indigo-soft: #52546829;
+}
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #383941 30%,
+      #52546829);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg,
+      #383941 50%,
+      #52546829 50%);
+  --vp-home-hero-image-filter: blur(40px);
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  border: none !important;
+}
+
+html.dark .shiki,
+html.dark .shiki span {
+  color: var(--shiki-dark) !important;
+  background-color: var(--shiki-dark-bg) !important;
+  font-style: var(--shiki-dark-font-style) !important;
+  font-weight: var(--shiki-dark-font-weight) !important;
+  text-decoration: var(--shiki-dark-text-decoration) !important;
+}
+
+.VPNavBarTitle span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

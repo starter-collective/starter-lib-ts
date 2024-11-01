@@ -11,9 +11,9 @@ TypeScript library starter template that provides VitePress online docs, support
 ## Features
 
 - Build package with [tsup](https://tsup.egoist.dev/) - Bundle your TypeScript library with no config.
-- Unit Testing with [Vitest](https://github.com/vitest-dev/vitest).
-- Provide [VitePress](https://vitepress.dev/) online docs.
-- Publish to [npm](https://www.npmjs.com) with zero-config.
+- Out-of-the-box unit testing with [Vitest](https://github.com/vitest-dev/vitest).
+- Provide [VitePress](https://vitepress.dev/) online docs - Deploy on [Netlify](https://app.netlify.com/) with zero-config, supports other deployment methods as well.
+- Manage versions using the [bumpp](https://github.com/antfu-collective/bumpp), and publish to npm with zero-configPublish to [npm](https://www.npmjs.com) with zero-config.
 
 ## Usage
 
