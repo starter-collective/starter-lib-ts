@@ -5,6 +5,7 @@
 
 提供 VitePress 在线文档的 TypeScript 库初始化模板，支持构建 ESM 和 CJS 格式。
 
+- [在线文档](https://starter-lib-ts.netlify.app/)
 - [在 Stackblitz 上试用](https://stackblitz.com/github/starter-collective/starter-lib-ts)
 - [简体中文的 README](./README.zh-CN.md)
 
