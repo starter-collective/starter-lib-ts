@@ -1,20 +1,25 @@
 :root {
-  --vp-c-indigo-1: #383941;
-  --vp-c-indigo-2: #3f3f4b;
-  --vp-c-indigo-3: #09090b;
-  --vp-c-indigo-soft: #52546829;
+  --vp-c-brand-1: #5086a1;
+  --vp-c-brand-2: #6aa1b7;
+  --vp-c-brand-3: #8cccd5;
+  --vp-c-brand-soft: #83d0da50;
+  --vp-c-bg-alt: #f9f9f9;
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #35495e -80%, #41b883);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #41b88380 30%, #35495e80);
+  --vp-home-hero-image-filter: blur(30px);
 }
 
-:root {
+.dark{
+  --vp-c-brand-1: #8cccd5;
+  --vp-c-brand-2: #6aa1b7;
+  --vp-c-brand-3: #5086a1;
+  --vp-c-brand-soft: #83d0da50;
+  --vp-c-bg-alt: #18181b;
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
-      #383941 30%,
-      #52546829);
-
-  --vp-home-hero-image-background-image: linear-gradient(-45deg,
-      #383941 50%,
-      #52546829 50%);
-  --vp-home-hero-image-filter: blur(40px);
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #35495e -80%, #41b883);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #41b88380 30%, #35495e80);
+  --vp-home-hero-image-filter: blur(30px);
 }
 
 html {
