@@ -5,6 +5,7 @@
 
 TypeScript library starter template that provides VitePress online docs, supports building ESM and CJS formats.
 
+- [Online Docs](https://starter-lib-ts.netlify.app/)
 - [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-lib-ts)
 - [README for 简体中文](./README.zh-CN.md)
 
