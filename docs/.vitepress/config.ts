@@ -1,28 +1,59 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
+  // Site config.
+  // https://vitepress.dev/reference/site-config
   title: 'TypeScript Library Starter Template',
-  description: 'TypeScript library starter template, supports ESM and CJS.',
+  description: 'TypeScript library starter template that provides VitePress online docs, supports building ESM and CJS formats.',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ],
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    logo: '/logo.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Guide', link: '/guide' },
+      { text: 'Functions', link: '/functions' },
+      { text: 'Changelog', link: 'https://github.com/starter-collective/starter-lib-ts/releases' },
     ],
-
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Guide',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Get Started', link: '/guide' },
+        ],
+      },
+      {
+        text: 'Functions',
+        items: [
+          { text: 'Say Hello', link: '/functions/say-hello' },
         ],
       },
     ],
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/starter-collective/starter-lib-ts' },
     ],
+    search: {
+      provider: 'local',
+    },
+
+  },
+  lastUpdated: true,
+  markdown: {
+    theme: {
+      light: 'github-light',
+      dark: 'github-dark',
+    },
+  },
+  // Vite config.
+  // https://vitejs.dev
+  vite: {
+    server: {
+      host: true,
+      port: 9865,
+    },
+    preview: {
+      host: true,
+      port: 9865,
+    },
   },
 })
