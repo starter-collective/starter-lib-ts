@@ -1,9 +1,9 @@
 import { describe, expect, it } from 'vitest'
-import { hello } from '../src/hello'
+import { sayHello } from '../src/say-hello'
 
-describe('test use for hello.ts', () => {
+describe('test use for say-hello.ts', () => {
   it('base', () => {
-    const res = hello('Kieran')
+    const res = sayHello('Kieran')
     expect(res).toBe('Hello, Kieran!')
   })
 })
