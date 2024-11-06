@@ -5,7 +5,7 @@
 ::: code-group
 
 ```sh [npm]
-npm i starter-lib-ts
+npm install starter-lib-ts
 ```
 
 ```sh [yarn]
@@ -13,7 +13,7 @@ yarn add starter-lib-ts
 ```
 
 ```sh [pnpm]
-pnpm i starter-lib-ts
+pnpm install starter-lib-ts
 ```
 :::
 
