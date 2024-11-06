@@ -33,4 +33,4 @@ import { sayHello } from 'starter-lib-ts'
 sayHello('Kieran')
 ```
 
-Refer to [functions list](/functions) for more details.
+Refer to [functions list](/functions/index) for more details.
