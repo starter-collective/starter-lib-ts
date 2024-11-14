@@ -1,12 +1,12 @@
-# starter-lib-ts
+# TypeScript Library Starter Template
 
-[![Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=%20&color=%230d0d0d)](https://github.com/starter-collective/starter-lib-ts/releases)
-[![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=%20&color=0d0d0d)](https://www.npmjs.com/package/starter-lib-ts)
+[![Version](https://img.shields.io/github/v/release/starter-collective/starter-ts?style=flat&label=%20&color=%230d0d0d)](https://github.com/starter-collective/starter-ts/releases)
+[![Version](https://img.shields.io/npm/v/starter-ts?style=flat&label=%20&color=0d0d0d)](https://www.npmjs.com/package/starter-ts)
 
 TypeScript 库启动模板，提供 VitePress 在线文档，支持构建 ESM、CJS 和 IIFE 格式。
 
-- [在线文档](https://starter-lib-ts.netlify.app/)
-- [在 Stackblitz 上试用](https://stackblitz.com/github/starter-collective/starter-lib-ts)
+- [在线文档](https://starter-ts.netlify.app/)
+- [在 Stackblitz 上试用](https://stackblitz.com/github/starter-collective/starter-ts)
 - [简体中文的 README](./README.zh-CN.md)
 
 ## 特性
@@ -18,7 +18,7 @@ TypeScript 库启动模板，提供 VitePress 在线文档，支持构建 ESM、
 
 ## 使用方法
 
-从 GitHub 上 [创建一个仓库](https://github.com/starter-collective/starter-lib-ts/generate) 基于此模板。
+从 GitHub 上 [创建一个仓库](https://github.com/starter-collective/starter-ts/generate) 基于此模板。
 
 ```bash
 git clone <git 远程地址>
@@ -27,7 +27,7 @@ git clone <git 远程地址>
 安装 npm 依赖。
 
 ```bash
-cd starter-lib-ts # 或者你的项目目录
+cd starter-ts # 或者你的项目目录
 
 pnpm i # 如果你没有安装 pnpm，运行：npm install -g pnpm
 ```
@@ -61,9 +61,9 @@ pnpm release
 如果你更喜欢手动操作并保持更清晰的 git 历史记录：
 
 ```bash
-npx degit starter-collective/starter-lib-ts starter-lib-ts
+npx degit starter-collective/starter-ts starter-ts
 
-cd starter-lib-ts
+cd starter-ts
 
 pnpm i # 如果你没有安装 pnpm，运行：npm install -g pnpm
 ```

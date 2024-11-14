@@ -5,22 +5,22 @@
 ::: code-group
 
 ```sh [npm]
-npm install starter-lib-ts
+npm install starter-ts
 ```
 
 ```sh [yarn]
-yarn add starter-lib-ts
+yarn add starter-ts
 ```
 
 ```sh [pnpm]
-pnpm install starter-lib-ts
+pnpm install starter-ts
 ```
 :::
 
 ## CDN
 
 ```js
-<script src="https://unpkg.com/starter-lib-ts"></script>
+<script src="https://unpkg.com/starter-ts"></script>
 ```
 
 It will be exposed to global as `window.StarterLibTs`
@@ -28,7 +28,7 @@ It will be exposed to global as `window.StarterLibTs`
 ## Usage Example
 
 ```js
-import { sayHello } from 'starter-lib-ts'
+import { sayHello } from 'starter-ts'
 
 sayHello('Kieran')
 ```

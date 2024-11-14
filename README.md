@@ -1,24 +1,24 @@
-# starter-lib-ts
+# TypeScript Library Starter Template
 
-[![Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=%20&color=%2309090b)](https://github.com/starter-collective/starter-lib-ts/releases)
-[![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/starter-lib-ts)
+[![Version](https://img.shields.io/github/v/release/starter-collective/starter-ts?style=flat&label=%20&color=%2309090b)](https://github.com/starter-collective/starter-ts/releases)
+[![Version](https://img.shields.io/npm/v/starter-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/starter-ts)
 
-TypeScript library starter template that provides VitePress online docs, supports building ESM, CJS and IIFE formats.
+TypeScript library starter template, provides VitePress documentation, supports building ESM, CJS and IIFE formats.
 
-- [Online Docs](https://starter-lib-ts.netlify.app/)
-- [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-lib-ts)
+- [Online Docs](https://starter-ts.netlify.app/)
+- [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-ts)
 - [README for 中文](./README.zh.md)
 
 ## Features
 
 - Build package with [tsup](https://tsup.egoist.dev/) - Bundle your TypeScript library with no config.
 - Out-of-the-box unit testing with [Vitest](https://github.com/vitest-dev/vitest).
-- Provide [VitePress](https://vitepress.dev/) online docs - Deploy on [Netlify](https://app.netlify.com/) with zero-config, supports other deployment methods as well.
+- Provide [VitePress](https://vitepress.dev/) documentation - Deploy on [Netlify](https://app.netlify.com/) with zero-config, supports other deployment methods as well.
 - Manage versions using the [bumpp](https://github.com/antfu-collective/bumpp), and publish to npm with zero-configPublish to [npm](https://www.npmjs.com) with zero-config.
 
 ## Usage
 
-[Create a repo](https://github.com/starter-collective/starter-lib-ts/generate) from this template on GitHub.
+[Create a repo](https://github.com/starter-collective/starter-ts/generate) from this template on GitHub.
 
 ```bash
 git clone <git remote url>
@@ -27,7 +27,7 @@ git clone <git remote url>
 Install npm dependencies.
 
 ```bash
-cd starter-lib-ts # Or your project directory
+cd starter-ts # Or your project directory
 
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
@@ -38,7 +38,7 @@ Just run `dev` script to build your files.
 pnpm dev
 ```
 
-Open online docs for the library, you can run:
+Open documentation for the library, you can run:
 
 ```bash
 pnpm docs:dev
@@ -61,9 +61,9 @@ pnpm release
 If you prefer to do it manually with the cleaner git history:
 
 ```bash
-npx degit starter-collective/starter-lib-ts starter-lib-ts
+npx degit starter-collective/starter-ts starter-ts
 
-cd starter-lib-ts
+cd starter-ts
 
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```

@@ -1,3 +1,3 @@
-# What is starter-lib-ts?
+# What is starter-ts?
 
-`starter-lib-ts` is a TypeScript library starter template that provides VitePress online documentation and supports building in ESM (ECMAScript Module), CJS (CommonJS), and IIFE (Immediately Invoked Function Expression) formats.
+`starter-ts` is a TypeScript library starter template that provides VitePress documentation and supports building in ESM (ECMAScript Module), CJS (CommonJS), and IIFE (Immediately Invoked Function Expression) formats.

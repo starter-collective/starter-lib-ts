@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export const shared = defineConfig({
-  title: 'starter-lib-ts',
+  title: 'TypeScript Library Starter Template',
   rewrites: {
     'en/:rest*': ':rest*',
   },
@@ -9,7 +9,7 @@ export const shared = defineConfig({
   cleanUrls: true,
   metaChunk: true,
   sitemap: {
-    hostname: 'https://starter-lib-ts.netlify.app/',
+    hostname: 'https://starter-ts.netlify.app/',
     transformItems(items) {
       return items.filter(item => !item.url.includes('migration'))
     },
@@ -23,12 +23,12 @@ export const shared = defineConfig({
     ['meta', { property: 'og:title', content: 'TypeScript Library Starter Template' }],
     ['meta', { property: 'og:site_name', content: 'TypeScript Library Starter Template' }],
     ['meta', { property: 'og:image', content: '/logo.png' }],
-    ['meta', { property: 'og:url', content: 'https://starter-lib-ts.netlify.app/' }],
+    ['meta', { property: 'og:url', content: 'https://starter-ts.netlify.app/' }],
   ],
   themeConfig: {
     logo: '/logo.png',
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/starter-collective/starter-lib-ts' },
+      { icon: 'github', link: 'https://github.com/starter-collective/starter-ts' },
     ],
     search: {
       provider: 'local',

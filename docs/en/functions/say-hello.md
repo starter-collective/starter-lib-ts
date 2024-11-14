@@ -1,11 +1,11 @@
 # Say Hello
 
-A demo function to use `starter-lib-ts`.
+A demo function to use `starter-ts`.
 
 ## Usage
 
 ```js
-import { sayHello } from 'starter-lib-ts'
+import { sayHello } from 'starter-ts'
 
 sayHello('Kieran') // Hello, Kieran!
 ```

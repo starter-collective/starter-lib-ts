@@ -5,22 +5,22 @@
 ::: code-group
 
 ```sh [npm]
-npm install starter-lib-ts
+npm install starter-ts
 ```
 
 ```sh [yarn]
-yarn add starter-lib-ts
+yarn add starter-ts
 ```
 
 ```sh [pnpm]
-pnpm install starter-lib-ts
+pnpm install starter-ts
 ```
 :::
 
 ## CDN
 
 ```js
-<script src="https://unpkg.com/starter-lib-ts"></script>
+<script src="https://unpkg.com/starter-ts"></script>
 ```
 
 它将作为 `window.StarterLibTs` 暴露在全局对象中
@@ -28,7 +28,7 @@ pnpm install starter-lib-ts
 ## 使用示例
 
 ```js
-import { sayHello } from 'starter-lib-ts'
+import { sayHello } from 'starter-ts'
 
 sayHello('Kieran')
 ```
