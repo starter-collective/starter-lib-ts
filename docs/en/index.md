@@ -3,7 +3,8 @@
 layout: home
 
 hero:
-  name: "TypeScript Library Starter Template"
+  name: starter-lib-ts
+  text: TypeScript Library Starter Template
   tagline: Provides VitePress online docs, supports building ESM and CJS formats.
   image:
     src: /logo.png
@@ -12,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide
+      link: /guide/getting-started
     - theme: alt
       text: Source Code
       link: https://github.com/starter-collective/starter-lib-ts

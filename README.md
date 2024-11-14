@@ -7,7 +7,7 @@ TypeScript library starter template that provides VitePress online docs, support
 
 - [Online Docs](https://starter-lib-ts.netlify.app/)
 - [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-lib-ts)
-- [README for 简体中文](./README.zh-CN.md)
+- [README for 中文](./README.zh.md)
 
 ## Features
 
@@ -76,4 +76,6 @@ When you use this template, try follow the checklist to update your info properl
 
 ## License
 
-[MIT License](./LICENSE) © 2024 [Kieran Wang](https://github.com/kieranwv/)
+[MIT](./LICENSE).
+
+Copyright © 2024-present Kieran Wang.
