@@ -72,6 +72,7 @@ When you use this template, try follow the checklist to update your info properl
 
 - [ ] Change the author name in `LICENSE`.
 - [ ] Change the package name in `package.json`.
+- [ ] Change the website info in `docs/*`.
 
 ## License
 

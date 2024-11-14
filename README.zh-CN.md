@@ -72,6 +72,7 @@ pnpm i # 如果你没有安装 pnpm，运行：npm install -g pnpm
 
 - [ ] 更改 `LICENSE` 中的作者姓名。
 - [ ] 更改 `package.json` 中的包名。
+- [ ] 更改 `docs/*` 中的网站信息。
 
 ## 许可证
 
