@@ -12,7 +12,7 @@ TypeScript 库启动模板，提供 VitePress 在线文档，支持构建 ESM、
 
 - 使用 [tsup](https://tsup.egoist.dev/) 构建包 - 无需配置即可打包 TypeScript 库。
 - 开箱即用的 [Vitest](https://github.com/vitest-dev/vitest) 单元测试。
-- 提供 [VitePress](https://vitepress.dev/) 在线文档 - 零配置部署到 [Netlify](https://app.netlify.com/)，并支持其他部署方式。
+- [VitePress](https://vitepress.dev/) 文档 - 零配置部署到 [Netlify](https://app.netlify.com/)，并支持其他部署方式。
 - 使用 [bumpp](https://github.com/antfu-collective/bumpp) 进行管理版本，同时零配置发布到 [npm](https://www.npmjs.com)。
 
 ## 使用方法

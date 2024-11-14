@@ -12,7 +12,7 @@ TypeScript library starter template, provides VitePress documentation, supports 
 
 - Build package with [tsup](https://tsup.egoist.dev/) - Bundle your TypeScript library with no config.
 - Out-of-the-box unit testing with [Vitest](https://github.com/vitest-dev/vitest).
-- Provide [VitePress](https://vitepress.dev/) documentation - Deploy on [Netlify](https://app.netlify.com/) with zero-config, supports other deployment methods as well.
+- [VitePress](https://vitepress.dev/) documentation - Deploy on [Netlify](https://app.netlify.com/) with zero-config, supports other deployment methods as well.
 - Manage versions using the [bumpp](https://github.com/antfu-collective/bumpp), and publish to npm with zero-configPublish to [npm](https://www.npmjs.com) with zero-config.
 
 ## Usage
