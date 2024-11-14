@@ -76,6 +76,4 @@ When you use this template, try follow the checklist to update your info properl
 
 ## License
 
-[MIT](./LICENSE).
-
-Copyright © 2024-present Kieran Wang.
+[MIT](./LICENSE) © 2024 [Kieran Wang](https://github.com/kieranwv/)
