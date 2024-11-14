@@ -1,7 +1,6 @@
 # TypeScript Library Starter Template
 
 [![Version](https://img.shields.io/github/v/release/starter-collective/starter-ts?style=flat&label=%20&color=%230d0d0d)](https://github.com/starter-collective/starter-ts/releases)
-[![Version](https://img.shields.io/npm/v/starter-ts?style=flat&label=%20&color=0d0d0d)](https://www.npmjs.com/package/starter-ts)
 
 TypeScript 库启动模板，提供 VitePress 在线文档，支持构建 ESM、CJS 和 IIFE 格式。
 
