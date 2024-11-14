@@ -23,7 +23,7 @@ pnpm install starter-lib-ts
 <script src="https://unpkg.com/starter-lib-ts"></script>
 ```
 
-它将作为 `window['starter-lib-ts']` 暴露在全局对象中
+它将作为 `window.StarterLibTs` 暴露在全局对象中
 
 ## 使用示例
 

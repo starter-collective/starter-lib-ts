@@ -5,7 +5,7 @@ layout: home
 hero:
   name: starter-lib-ts
   text: TypeScript Library Starter Template
-  tagline: Provides VitePress online docs, supports building ESM and CJS formats.
+  tagline: Provides VitePress online docs, supports building ESM, CJS and IIFE formats.
   image:
     src: /logo.png
     alt: Logo Image

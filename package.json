@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@9.10.0",
-  "description": "TypeScript Library starter template, supports ESM and CJS.",
+  "description": "TypeScript library starter template that provides VitePress online docs, supports building ESM, CJS and IIFE formats.",
   "author": "Kieran Wang <kieranwme@gmail.com> (https://github.com/kieranwv/)",
   "license": "MIT",
   "homepage": "https://github.com/starter-collective/starter-lib-ts#readme",
@@ -29,6 +29,8 @@
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
+  "unpkg": "./dist/index.global.js",
+  "jsdelivr": "./index.global.js",
   "types": "./dist/index.d.ts",
   "files": [
     "dist"

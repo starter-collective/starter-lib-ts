@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "starter-lib-ts"
   text: TypeScript 库启动模板
-  tagline: 提供 VitePress 在线文档，支持构建 ESM 和 CJS 格式。
+  tagline: 提供 VitePress 在线文档，支持构建 ESM、CJS 和 IIFE 格式。
   image:
     src: /logo.png
     alt: Logo 图片

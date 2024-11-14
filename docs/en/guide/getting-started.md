@@ -23,7 +23,7 @@ pnpm install starter-lib-ts
 <script src="https://unpkg.com/starter-lib-ts"></script>
 ```
 
-It will be exposed to global as `window['starter-lib-ts']`
+It will be exposed to global as `window.StarterLibTs`
 
 ## Usage Example
 
