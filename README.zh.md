@@ -16,6 +16,10 @@ TypeScript 库启动模板，提供 VitePress 在线文档，支持构建 ESM、
 - [VitePress](https://vitepress.dev/) 文档 - 零配置部署到 [Netlify](https://app.netlify.com/)，并支持其他部署方式。
 - 使用 [bumpp](https://github.com/antfu-collective/bumpp) 进行管理版本，同时零配置发布到 [npm](https://www.npmjs.com)。
 
+## 预览
+
+[![预览图片](https://github.com/starter-collective/.github/blob/main/preview/starter-lib-ts.png)](https://starter-lib-ts.netlify.app/)
+
 ## 使用方法
 
 从 GitHub 上 [创建一个仓库](https://github.com/starter-collective/starter-lib-ts/generate) 基于此模板。

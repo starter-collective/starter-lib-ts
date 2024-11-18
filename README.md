@@ -16,6 +16,10 @@ TypeScript library starter template, provides VitePress documentation, supports 
 - [VitePress](https://vitepress.dev/) documentation - Deploy on [Netlify](https://app.netlify.com/) with zero-config, supports other deployment methods as well.
 - Manage versions using the [bumpp](https://github.com/antfu-collective/bumpp), and publish to npm with zero-configPublish to [npm](https://www.npmjs.com) with zero-config.
 
+## Preview
+
+[![Preview Image](https://github.com/starter-collective/.github/blob/main/preview/starter-lib-ts.png)](https://starter-lib-ts.netlify.app/)
+
 ## Usage
 
 [Create a repo](https://github.com/starter-collective/starter-lib-ts/generate) from this template on GitHub.
