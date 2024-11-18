@@ -1,5 +1,5 @@
 {
-  "name": "starter-ts",
+  "name": "@kieranwv/starter-ts",
   "type": "module",
   "version": "0.1.0",
   "packageManager": "pnpm@9.10.0",
@@ -51,7 +51,7 @@
     "lint:fix": "eslint . --fix",
     "type-check": "tsc --noEmit",
     "clean": "rimraf dist",
-    "release": "bumpp && pnpm build && pnpm publish"
+    "release": "bumpp && pnpm build && pnpm publish --access public"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
