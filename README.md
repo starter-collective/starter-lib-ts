@@ -1,6 +1,7 @@
 # TypeScript Library Starter Template
 
-[![Version](https://img.shields.io/github/v/release/starter-collective/starter-ts?style=flat&label=%20&color=%2309090b)](https://github.com/starter-collective/starter-ts/releases)
+[![Version](https://img.shields.io/github/v/release/starter-collective/starter-ts?style=flat&label=released&color=%2309090b)](https://github.com/starter-collective/starter-ts/releases)
+[![Version](https://img.shields.io/npm/v/starter-collective/starter-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/@kieranwv/utils)
 
 TypeScript library starter template, provides VitePress documentation, supports building ESM, CJS and IIFE formats.
 
