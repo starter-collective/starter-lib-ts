@@ -1,18 +1,18 @@
 {
-  "name": "@kieranwv/starter-ts",
+  "name": "starter-lib-ts",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@9.10.0",
   "description": "TypeScript library starter template, provides VitePress documentation, supports building ESM, CJS and IIFE formats.",
   "author": "Kieran Wang <kieranwme@gmail.com> (https://github.com/kieranwv/)",
   "license": "MIT",
-  "homepage": "https://github.com/starter-collective/starter-ts#readme",
+  "homepage": "https://github.com/starter-collective/starter-lib-ts#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/starter-collective/starter-ts.git"
+    "url": "git+https://github.com/starter-collective/starter-lib-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/starter-collective/starter-ts/issues"
+    "url": "https://github.com/starter-collective/starter-lib-ts/issues"
   },
   "keywords": [
     "typescript",

@@ -16,7 +16,7 @@ hero:
       link: /guide/getting-started
     - theme: alt
       text: Source Code
-      link: https://github.com/starter-collective/starter-ts
+      link: https://github.com/starter-collective/starter-lib-ts
 
 features:
   - title: Bundle with tsup

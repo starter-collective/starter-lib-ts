@@ -1,12 +1,12 @@
 # TypeScript Library Starter Template
 
-[![Version](https://img.shields.io/github/v/release/starter-collective/starter-ts?style=flat&label=released&color=%2309090b)](https://github.com/starter-collective/starter-ts/releases)
-[![Version](https://img.shields.io/npm/v/@kieranwv/starter-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/@kieranwv/starter-ts)
+[![Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=released&color=%2309090b)](https://github.com/starter-collective/starter-lib-ts/releases)
+[![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/starter-collective/starter-lib-ts)
 
 TypeScript library starter template, provides VitePress documentation, supports building ESM, CJS and IIFE formats.
 
-- [Online Docs](https://starter-ts.netlify.app/)
-- [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-ts)
+- [Online Docs](https://starter-lib-ts.netlify.app/)
+- [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-lib-ts)
 - [README for 中文](./README.zh.md)
 
 ## Features
@@ -18,7 +18,7 @@ TypeScript library starter template, provides VitePress documentation, supports 
 
 ## Usage
 
-[Create a repo](https://github.com/starter-collective/starter-ts/generate) from this template on GitHub.
+[Create a repo](https://github.com/starter-collective/starter-lib-ts/generate) from this template on GitHub.
 
 ```bash
 git clone <git remote url>
@@ -27,7 +27,7 @@ git clone <git remote url>
 Install npm dependencies.
 
 ```bash
-cd starter-ts # Or your project directory
+cd starter-lib-ts # Or your project directory
 
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
@@ -61,9 +61,9 @@ pnpm release
 If you prefer to do it manually with the cleaner git history:
 
 ```bash
-npx degit starter-collective/starter-ts starter-ts
+npx degit starter-collective/starter-lib-tsbstarter-lib-tsr-lib-ts
 
-cd starter-ts
+cd starter-lib-ts
 
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```

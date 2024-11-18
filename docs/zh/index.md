@@ -16,7 +16,7 @@ hero:
       link: /zh/guide/getting-started
     - theme: alt
       text: 源代码
-      link: https://github.com/starter-collective/starter-ts
+      link: https://github.com/starter-collective/starter-lib-ts
 
 features:
   - title: 使用 tsup 打包
