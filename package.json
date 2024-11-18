@@ -1,5 +1,5 @@
 {
-  "name": "@kieranwv/starter-lib-ts",
+  "name": "starter-lib-ts",
   "type": "module",
   "version": "1.0.0",
   "packageManager": "pnpm@9.10.0",
