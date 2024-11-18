@@ -1,7 +1,7 @@
 # TypeScript 库启动模板
 
 [![Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=released&color=%2309090b)](https://github.com/starter-collective/starter-lib-ts/releases)
-[![Version](https://img.shields.io/npm/v/@kieranwv/starter-lib-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/@kieranwv/starter-lib-ts)
+[![Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/starter-lib-ts)
 
 TypeScript 库启动模板，提供 VitePress 在线文档，支持构建 ESM、CJS 和 IIFE 格式。
 
