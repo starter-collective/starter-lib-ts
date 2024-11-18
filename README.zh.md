@@ -65,7 +65,7 @@ pnpm release
 如果你更喜欢手动操作并保持更清晰的 git 历史记录：
 
 ```bash
-npx degit starter-collective/starter-lib-tsbstarter-lib-tsr-lib-ts
+npx degit starter-collective/starter-lib-ts
 
 cd starter-lib-ts
 

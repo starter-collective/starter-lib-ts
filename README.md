@@ -65,7 +65,7 @@ pnpm release
 If you prefer to do it manually with the cleaner git history:
 
 ```bash
-npx degit starter-collective/starter-lib-tsbstarter-lib-tsr-lib-ts
+npx degit starter-collective/starter-lib-ts
 
 cd starter-lib-ts
 
