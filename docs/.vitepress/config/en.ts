@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import pkg from '../../../package.json'
 
 export const en = defineConfig({
   lang: 'en-US',
@@ -11,7 +12,15 @@ export const en = defineConfig({
     nav: [
       { text: 'Guide', link: '/guide/what-is', activeMatch: '/guide/' },
       { text: 'Functions', link: '/functions', activeMatch: '/functions/' },
-      { text: 'Changelog', link: 'https://github.com/starter-collective/starter-lib-ts/releases' },
+      {
+        text: `v${pkg.version}`,
+        items: [
+          {
+            text: 'Changelog',
+            link: 'https://github.com/starter-collective/starter-lib-ts/releases',
+          },
+        ],
+      },
     ],
     sidebar: [
       {

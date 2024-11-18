@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import pkg from '../../../package.json'
 
 export const zh = defineConfig({
   lang: 'zh-CN',
@@ -11,7 +12,15 @@ export const zh = defineConfig({
     nav: [
       { text: '指南', link: '/zh/guide/what-is', activeMatch: '/zh/guide/' },
       { text: '函数', link: '/zh/functions', activeMatch: '/zh/functions/' },
-      { text: '更新日志', link: 'https://github.com/starter-collective/starter-lib-ts/releases' },
+      {
+        text: `v${pkg.version}`,
+        items: [
+          {
+            text: 'Changelog',
+            link: 'https://github.com/starter-collective/starter-lib-ts/releases',
+          },
+        ],
+      },
     ],
     sidebar: [
       {
