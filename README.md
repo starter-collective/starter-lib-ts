@@ -5,7 +5,7 @@
 
 TypeScript library starter template, provides VitePress documentation, supports building ESM, CJS and IIFE formats.
 
-- [Online Docs](https://starter-lib-ts.netlify.app/)
+- [Live Demo](https://starter-lib-ts.netlify.app/)
 - [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-lib-ts)
 - [README for 中文](./README.zh.md)
 
@@ -74,9 +74,8 @@ pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 
 When you use this template, try follow the checklist to update your info properly:
 
-- [ ] Change the author name in `LICENSE`.
-- [ ] Change the package name in `package.json`.
-- [ ] Change the website info in `docs/*`.
+- [ ] Change the package name in `package.json` and the global `iife` variable in `tsup.config.ts`.
+- [ ] Update the website information, favicon, and logo icons in `docs/*`.
 
 ## License
 

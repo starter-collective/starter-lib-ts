@@ -5,9 +5,9 @@
 
 TypeScript 库启动模板，提供 VitePress 在线文档，支持构建 ESM、CJS 和 IIFE 格式。
 
-- [在线文档](https://starter-lib-ts.netlify.app/)
+- [在线演示](https://starter-lib-ts.netlify.app/)
 - [在 Stackblitz 上试用](https://stackblitz.com/github/starter-collective/starter-lib-ts)
-- [简体中文的 README](./README.zh-CN.md)
+- [英语的 README](./README.md)
 
 ## 特性
 
@@ -74,9 +74,8 @@ pnpm i # 如果你没有安装 pnpm，运行：npm install -g pnpm
 
 使用此模板时，请按照以下检查列表正确更新信息：
 
-- [ ] 更改 `LICENSE` 中的作者姓名。
-- [ ] 更改 `package.json` 中的包名。
-- [ ] 更改 `docs/*` 中的网站信息。
+- [ ] 更改 `package.json` 中的包名和 `tsup.config.ts` 中的全局 `iife` 变量。
+- [ ] 更新 `docs/*` 中的网站信息、favicon 及 logo 图标。
 
 ## 许可证
 
