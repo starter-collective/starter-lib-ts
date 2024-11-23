@@ -51,7 +51,7 @@
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc --noEmit",
     "clean": "rimraf dist",
-    "release": "bumpp && pnpm build && pnpm publish --access public"
+    "release": "bumpp && pnpm build && pnpm publish"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.8.0",
