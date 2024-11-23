@@ -49,7 +49,7 @@
     "test": "vitest",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "type-check": "tsc --noEmit",
+    "typecheck": "tsc --noEmit",
     "clean": "rimraf dist",
     "release": "bumpp && pnpm build && pnpm publish --access public"
   },
