@@ -1,4 +1,4 @@
-# 打招呼
+# sayHello
 
 一个用于 `starter-lib-ts` 的演示函数。
 

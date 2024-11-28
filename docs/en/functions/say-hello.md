@@ -1,4 +1,4 @@
-# Say Hello
+# sayHello
 
 A demo function to use `starter-lib-ts`.
 
