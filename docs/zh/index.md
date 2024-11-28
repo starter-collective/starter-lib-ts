@@ -20,7 +20,7 @@ hero:
 
 features:
   - title: 使用 tsup 打包
-    details: 使用 tsup 构建包 - 无需配置即可打包您的 TypeScript 库。
+    details: 使用 tsup 构建包 - 简单配置即可打包您的 TypeScript 库。
   - title: 单元测试
     details: 开箱即用的 Vitest 单元测试。
   - title: VitePress 文档

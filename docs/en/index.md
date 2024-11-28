@@ -20,7 +20,7 @@ hero:
 
 features:
   - title: Bundle with tsup
-    details: Build package with tsup - Bundle your TypeScript library with no config.
+    details: Build package with tsup - Bundle your TypeScript library with simple config.
   - title: Unit Test
     details: Out-of-the-box unit testing with Vitest.
   - title: VitePress documentation
