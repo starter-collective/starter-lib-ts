@@ -1,6 +1,8 @@
-# 快速开始
+# 立即开始
 
-## 安装
+本节将帮助您设置并开始使用 `starter-lib-ts`。
+
+## 使用包管理器
 
 ::: code-group
 
@@ -23,9 +25,11 @@ pnpm install starter-lib-ts
 <script src="https://unpkg.com/starter-lib-ts"></script>
 ```
 
-它将作为 `window.StarterLibTs` 暴露在全局对象中
+它将作为 `window.StarterLibTs` 暴露在全局对象中。
 
 ## 使用示例
+
+只需要从 `starter-lib-ts` 导入所需的函数。
 
 ```js
 import { sayHello } from 'starter-lib-ts'
@@ -33,4 +37,4 @@ import { sayHello } from 'starter-lib-ts'
 sayHello('Kieran')
 ```
 
-更多详情请参考[函数列表](/functions/index)。
+更多内容请参考[函数列表](/functions/index)。

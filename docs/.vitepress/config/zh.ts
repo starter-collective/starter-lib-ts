@@ -1,12 +1,13 @@
 import { defineConfig } from 'vitepress'
 import pkg from '../../../package.json'
+import { GITHUB_URL } from './constants'
 
 export const zh = defineConfig({
   lang: 'zh-CN',
   description: 'TypeScript 库启动模板，提供 VitePress 在线文档，支持构建 ESM 和 CJS 格式。',
   themeConfig: {
     editLink: {
-      pattern: 'https://github.com/starter-collective/starter-lib-ts/edit/main/docs/:path',
+      pattern: `${GITHUB_URL}/edit/main/docs/:path`,
       text: '在 GitHub 上编辑此页面',
     },
     nav: [
@@ -16,8 +17,8 @@ export const zh = defineConfig({
         text: `v${pkg.version}`,
         items: [
           {
-            text: 'Changelog',
-            link: 'https://github.com/starter-collective/starter-lib-ts/releases',
+            text: '更新日志',
+            link: `${GITHUB_URL}/releases`,
           },
         ],
       },
@@ -28,7 +29,7 @@ export const zh = defineConfig({
         collapsed: false,
         items: [
           { text: '什么是 starter-lib-ts？', link: '/zh/guide/what-is' },
-          { text: '快速开始', link: '/zh/guide/getting-started' },
+          { text: '立即开始', link: '/zh/guide/getting-started' },
         ],
       },
       {

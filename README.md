@@ -1,13 +1,14 @@
 # TypeScript Library Starter Template
 
-[![Release Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?style=flat&label=released&color=%2309090b)](https://github.com/starter-collective/starter-lib-ts/releases)
-[![NPM Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=npm&color=09090b)](https://www.npmjs.com/package/starter-lib-ts)
+[![GitHub Release Version](https://img.shields.io/github/v/release/starter-collective/starter-lib-ts?label=Release&color=%42b883)](https://github.com/starter-collective/starter-lib-ts/releases)
+[![NPM Version](https://img.shields.io/npm/v/starter-lib-ts?style=flat&label=npm&color=%42b883)](https://www.npmjs.com/package/starter-lib-ts)
+[![Build Status](https://github.com/starter-collective/starter-lib-ts/actions/workflows/ci.yml/badge.svg?branch=main&color=%42b883)](https://github.com/starter-collective/starter-lib-ts/actions/workflows/ci.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b182d34-7d30-4206-aad9-9789d1c8ed11/deploy-status)](https://app.netlify.com/sites/starter-lib-ts/deploys)
 
 TypeScript library starter template, provides VitePress documentation, supports building ESM, CJS and IIFE formats.
 
 - [Live Demo](https://starter-lib-ts.netlify.app/)
 - [Play on Stackblitz](https://stackblitz.com/github/starter-collective/starter-lib-ts)
-- [README for 中文](./README.zh.md)
 
 ## Features
 
@@ -15,10 +16,6 @@ TypeScript library starter template, provides VitePress documentation, supports 
 - Out-of-the-box unit testing with [Vitest](https://github.com/vitest-dev/vitest).
 - [VitePress](https://vitepress.dev/) documentation - Deploy on [Netlify](https://app.netlify.com/) with zero-config, supports other deployment methods as well.
 - Manage versions using the [bumpp](https://github.com/antfu-collective/bumpp), and publish to npm with zero-configPublish to [npm](https://www.npmjs.com) with zero-config.
-
-## Preview
-
-[![Preview Image](https://github.com/starter-collective/.github/blob/main/preview/starter-lib-ts.png)](https://starter-lib-ts.netlify.app/)
 
 ## Usage
 
