@@ -19,7 +19,7 @@ pnpm install starter-lib-ts
 ```
 :::
 
-## CDN
+## 浏览器直接引入
 
 ```js
 <script src="https://unpkg.com/starter-lib-ts"></script>
